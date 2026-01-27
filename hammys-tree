@@ -1,0 +1,28 @@
+hammys-trading/
+  README.md
+  package.json
+  next.config.js
+  .gitignore
+  app/
+    layout.tsx
+    providers.tsx
+    page.tsx
+    inventory/page.tsx
+    item/[id]/page.tsx
+    admin/page.tsx
+    success/page.tsx
+    api/
+      checkout/route.ts
+      stripe/
+        webhook/route.ts
+  lib/
+    amplifyClient.ts
+    gql.ts
+  amplify/
+    backend/
+      api/
+        hammysapi/
+          schema.graphql
+  public/
+    favicon.ico
+
