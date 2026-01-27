@@ -1,0 +1,37 @@
+# Public can read inventory (API Key), only authenticated users (Cognito) can write.
+type InventoryItem
+  @model
+  @auth(
+    rules: [
+      { allow: public, operations: [read] }
+      { allow: private, operations: [create, update, delete, read] }
+    ]
+  ) {
+  id: ID!
+  name: String!
+  set: String
+  year: Int
+  condition: String
+  gradeCompany: String
+  grade: String
+  priceCents: Int!
+  quantity: Int!
+  status: String! # ACTIVE | HIDDEN | SOLD_OUT
+  tags: [String]
+  imageKeys: [String]
+  createdAt: AWSDateTime
+}
+
+# Orders are admin-only in MVP (keeps it simple).
+type Order
+  @model
+  @auth(rules: [{ allow: private, operations: [create, update, read] }]) {
+  id: ID!
+  stripeSessionId: String!
+  email: AWSEmail
+  lineItemsJson: String!
+  amountTotalCents: Int!
+  status: String! # PENDING | PAID | FAILED | FULFILLED
+  createdAt: AWSDateTime
+}
+
