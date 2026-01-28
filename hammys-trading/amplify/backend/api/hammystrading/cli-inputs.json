@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "hammystrading",
+    "serviceName": "AppSync",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 365,
+      "apiKeyExpirationDate": "2027-01-28T00:15:56.314Z",
+      "keyDescription": "GraphQL-key"
+    },
+    "conflictResolution": {},
+    "additionalAuthTypes": []
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-hammystrading-dev-35c22-authRole",
+      "UnauthRoleArn": "arn:aws:iam::173128527939:role/amplify-hammystrading-dev-35c22-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::173128527939:role/amplify-hammystrading-dev-35c22-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-hammystrading-dev-35c22-deployment",
+      "UnauthRoleName": "amplify-hammystrading-dev-35c22-unauthRole",
+      "StackName": "amplify-hammystrading-dev-35c22",
+      "StackId": "arn:aws:cloudformation:us-east-1:173128527939:stack/amplify-hammystrading-dev-35c22/55f948b0-fbdd-11f0-822b-0ea9d7fb0717",
+      "AmplifyAppId": "d2g6b8v2fpf98v"
+    },
+    "categories": {
+      "auth": {
+        "hammystrading1a10facb": {}
+      },
+      "api": {
+        "hammystrading": {}
+      }
+    }
+  }
+}
