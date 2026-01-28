@@ -1,0 +1,32 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-hammysweb-dev-9adec-authRole",
+      "UnauthRoleArn": "arn:aws:iam::173128527939:role/amplify-hammysweb-dev-9adec-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::173128527939:role/amplify-hammysweb-dev-9adec-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-hammysweb-dev-9adec-deployment",
+      "UnauthRoleName": "amplify-hammysweb-dev-9adec-unauthRole",
+      "StackName": "amplify-hammysweb-dev-9adec",
+      "StackId": "arn:aws:cloudformation:us-east-1:173128527939:stack/amplify-hammysweb-dev-9adec/730d1950-fbeb-11f0-8451-0ecaddfeaf0f",
+      "AmplifyAppId": "d3pctvorhc3kuj"
+    },
+    "categories": {
+      "auth": {
+        "hammysweb406f1bbc": {}
+      },
+      "function": {
+        "S3Triggerd9d79e05": {
+          "deploymentBucketName": "amplify-hammysweb-dev-9adec-deployment",
+          "s3Key": "amplify-builds/S3Triggerd9d79e05-337a6435735574767a6d-build.zip"
+        }
+      },
+      "api": {
+        "hammysweb": {}
+      },
+      "storage": {
+        "s3b59cbc7d": {}
+      }
+    }
+  }
+}

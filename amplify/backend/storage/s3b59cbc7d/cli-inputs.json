@@ -1,0 +1,14 @@
+{
+  "resourceName": "s3b59cbc7d",
+  "policyUUID": "b59cbc7d",
+  "bucketName": "hammysweb4cef843836d54930ab10ac6aad27102a",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}
